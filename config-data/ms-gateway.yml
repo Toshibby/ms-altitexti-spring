@@ -28,3 +28,14 @@ spring:
               uri: lb://ms-cliente
               predicates:
                 - Path=/clientes/**
+
+            - id: ms-producto
+              uri: lb://ms-producto
+              predicates:
+                - Path=/productos/**
+
+            - id: ms-auth
+              uri: lb://ms-auth
+              predicates:
+                - Path=/usuarios/**
+
