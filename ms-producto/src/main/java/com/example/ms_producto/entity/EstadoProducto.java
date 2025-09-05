@@ -18,5 +18,5 @@ public class EstadoProducto {
     private Long id;
 
     @Column(nullable = false, length = 50, name = "nombre")
-    private String nombre; // Valores posibles: Activo, Inactivo, Agotado, Discontinuado
+    public String nombre; // Valores posibles: Activo, Inactivo, Agotado, Discontinuado
 }

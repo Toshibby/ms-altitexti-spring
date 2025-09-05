@@ -18,8 +18,8 @@ public class Categoria {
     private Long id;
 
     @Column(nullable = false, length = 100, name = "nombre_categoria")
-    private String nombre;
+    public String nombre;
 
     @Column(length = 255, name = "descripcion_categoria")
-    private String descripcion;
+    public String descripcion;
 }

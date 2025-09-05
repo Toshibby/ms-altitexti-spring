@@ -1,4 +1,7 @@
 package com.example.ms_producto.repository;
 
-public interface ProductoRepository {
+import com.example.ms_producto.entity.Producto;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductoRepository extends JpaRepository<Producto, Long> {
 }
