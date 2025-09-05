@@ -39,3 +39,8 @@ spring:
               predicates:
                 - Path=/usuarios/**
 
+            - id: ms-venta
+              uri: lb://ms-venta
+              predicates:
+                - Path=/tipos-venta/**
+
