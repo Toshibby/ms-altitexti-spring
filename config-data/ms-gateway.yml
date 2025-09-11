@@ -44,3 +44,8 @@ spring:
               predicates:
                 - Path=/tipos-venta/**
 
+            - id: ms-inventario
+              uri: lb://ms-inventario
+              predicates:
+                - Path=/inventarios/**
+
