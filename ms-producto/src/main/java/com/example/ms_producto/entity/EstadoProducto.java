@@ -15,7 +15,7 @@ public class EstadoProducto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Long idEstadoProducto;
+    private Long id;
 
     @Column(nullable = false, length = 50, name = "nombre")
     public String nombre; // Valores posibles: Activo, Inactivo, Agotado, Discontinuado

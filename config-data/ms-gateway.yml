@@ -33,6 +33,7 @@ spring:
               uri: lb://ms-producto
               predicates:
                 - Path=/categorias/**
+                - Path=/estados-producto/**
 
             - id: ms-auth
               uri: lb://ms-auth
